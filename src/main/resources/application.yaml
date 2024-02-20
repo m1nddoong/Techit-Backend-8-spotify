@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:db.sqlite
+    driver-class-name: org.sqlite.JDBC
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+
+spotify:
+  client-id: c61bba2f3fbd4a64814d995889874d85
+  client-secret: d61c343ac9774cc19f61e8ac0717174e
